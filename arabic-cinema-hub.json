@@ -1,0 +1,416 @@
+{
+  "name": "Arabic Cinema Hub",
+  "version": "1.0.0",
+  "scrapers": [
+    {
+      "id": "cimanow",
+      "name": "CVN-CimaNow",
+      "description": "Arabic movies and series",
+      "version": "1.0.0",
+      "author": "ArabicCinemaHub",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/cimanow.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "hls",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "ar"
+      ],
+      "limited": false,
+      "disabledPlatforms": []
+    },
+    {
+      "id": "aflamstream",
+      "name": "CVN-AflamStream",
+      "description": "Translated movies",
+      "version": "1.0.0",
+      "author": "ArabicCinemaHub",
+      "supportedTypes": [
+        "movie"
+      ],
+      "filename": "providers/aflamstream.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "hls",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "ar"
+      ],
+      "limited": false,
+      "disabledPlatforms": []
+    },
+    {
+      "id": "qfilm",
+      "name": "CVN-QFilm",
+      "description": "Movies and series",
+      "version": "1.0.0",
+      "author": "ArabicCinemaHub",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/qfilm.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "hls",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "ar"
+      ],
+      "limited": false,
+      "disabledPlatforms": []
+    },
+    {
+      "id": "egybet",
+      "name": "CVN-EGYBET",
+      "description": "Movies and series",
+      "version": "1.0.0",
+      "author": "ArabicCinemaHub",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/egybet.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "hls",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "ar"
+      ],
+      "limited": false,
+      "disabledPlatforms": []
+    },
+    {
+      "id": "tukcima",
+      "name": "CVN-TukCima",
+      "description": "Movies and series",
+      "version": "1.0.0",
+      "author": "ArabicCinemaHub",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/tukcima.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "hls",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "ar"
+      ],
+      "limited": false,
+      "disabledPlatforms": []
+    },
+    {
+      "id": "witanime",
+      "name": "CVN-WitAnime",
+      "description": "Anime",
+      "version": "1.0.0",
+      "author": "ArabicCinemaHub",
+      "supportedTypes": [
+        "tv",
+        "movie"
+      ],
+      "filename": "providers/witanime.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "hls",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "ar"
+      ],
+      "limited": false,
+      "disabledPlatforms": []
+    },
+    {
+      "id": "fasselhd",
+      "name": "CVN-FasselHD",
+      "description": "Movies and series",
+      "version": "1.0.0",
+      "author": "ArabicCinemaHub",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/fasselhd.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "hls",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "ar"
+      ],
+      "limited": false,
+      "disabledPlatforms": []
+    },
+    {
+      "id": "faselhd2",
+      "name": "CVN-FaselHD",
+      "description": "Alternative FaselHD source",
+      "version": "1.0.0",
+      "author": "ArabicCinemaHub",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/faselhd2.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "hls",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "ar"
+      ],
+      "limited": false,
+      "disabledPlatforms": []
+    },
+    {
+      "id": "egydead",
+      "name": "CVN-EgyDead",
+      "description": "EgyDead movies and series",
+      "version": "1.0.0",
+      "author": "ArabicCinemaHub",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/egydead.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "hls",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "ar"
+      ],
+      "limited": false,
+      "disabledPlatforms": []
+    },
+    {
+      "id": "egydeadca",
+      "name": "CVN-EgyDead CA",
+      "description": "Alternative EgyDead domain",
+      "version": "1.0.0",
+      "author": "ArabicCinemaHub",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/egydeadca.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "hls",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "ar"
+      ],
+      "limited": false,
+      "disabledPlatforms": []
+    },
+    {
+      "id": "qdrama",
+      "name": "CVN-QDrama",
+      "description": "Drama series",
+      "version": "1.0.0",
+      "author": "ArabicCinemaHub",
+      "supportedTypes": [
+        "tv"
+      ],
+      "filename": "providers/qdrama.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "hls",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "ar"
+      ],
+      "limited": false,
+      "disabledPlatforms": []
+    },
+    {
+      "id": "myseed",
+      "name": "CVN-MySeed",
+      "description": "Movies and series",
+      "version": "1.0.0",
+      "author": "ArabicCinemaHub",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/myseed.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "hls",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "ar"
+      ],
+      "limited": false,
+      "disabledPlatforms": []
+    },
+    {
+      "id": "ahwaktv",
+      "name": "CVN-AhwakTV",
+      "description": "TV series",
+      "version": "1.0.0",
+      "author": "ArabicCinemaHub",
+      "supportedTypes": [
+        "tv"
+      ],
+      "filename": "providers/ahwaktv.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "hls",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "ar"
+      ],
+      "limited": false,
+      "disabledPlatforms": []
+    },
+    {
+      "id": "wecima",
+      "name": "CVN-WeCima",
+      "description": "Movies and series",
+      "version": "1.0.0",
+      "author": "ArabicCinemaHub",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/wecima.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "hls",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "ar"
+      ],
+      "limited": false,
+      "disabledPlatforms": []
+    },
+    {
+      "id": "mycima",
+      "name": "CVN-MyCima",
+      "description": "Movies and series",
+      "version": "1.0.0",
+      "author": "ArabicCinemaHub",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/mycima.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "hls",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "ar"
+      ],
+      "limited": false,
+      "disabledPlatforms": []
+    },
+    {
+      "id": "cimalight",
+      "name": "CVN-CimaLight",
+      "description": "Movies",
+      "version": "1.0.0",
+      "author": "ArabicCinemaHub",
+      "supportedTypes": [
+        "movie"
+      ],
+      "filename": "providers/cimalight.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "hls",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "ar"
+      ],
+      "limited": false,
+      "disabledPlatforms": []
+    },
+    {
+      "id": "starzplay",
+      "name": "CVN-Starzplay",
+      "description": "Official streaming integration",
+      "version": "1.0.0",
+      "author": "ArabicCinemaHub",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/starzplay.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "hls",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "ar"
+      ],
+      "limited": false,
+      "disabledPlatforms": []
+    },
+    {
+      "id": "flixmomo",
+      "name": "CVN-FlixMomo",
+      "description": "Movies and series",
+      "version": "1.0.0",
+      "author": "ArabicCinemaHub",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/flixmomo.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "hls",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "ar"
+      ],
+      "limited": false,
+      "disabledPlatforms": []
+    }
+  ]
+}
